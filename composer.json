@@ -1,0 +1,25 @@
+{
+    "name": "sandpkg/mypkg",
+    "description": "",
+    "keywords": [],
+    "homepage": "",
+    "authors": [
+        {
+            "name": "sand91",
+            "email": "santhoshatq@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+       "psr-4": {
+         "Sandpkg\\Mypkg\\": "src/Mypkg"
+        }
+    },
+    "license": "Sand91"
+    
+}
